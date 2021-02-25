@@ -163,6 +163,11 @@ input, textarea, select, button {
   background-color: #01215C70;
   color: #fff;
   font-weight: 900;
+   transition: 0.2s all;
+  -webkit-transition: 0.2s all;
+  -moz-transition: 0.2s all;
+  -ms-transition: 0.2s all;
+  -o-transition: 0.2s all;
 }
 .container .accounts_box .box[aria-checked=true] {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
