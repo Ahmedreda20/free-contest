@@ -12,6 +12,10 @@ accounts_box.forEach(account => {
       account.setAttribute('aria-checked', true);
          account.setAttribute('tabindex', 0);
    }
+   account.ondblclick = () => {
+      account.setAttribute('aria-checked', false);
+         account.setAttribute('tabindex', -1);
+   }
 })
 searchform.onsubmit = e => {
    e.preventDefault();
